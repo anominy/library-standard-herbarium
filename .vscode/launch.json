@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Launch LLDB ~ MAIN",
+            "program": "${workspaceFolder}/out/main",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

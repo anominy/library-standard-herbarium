@@ -1,0 +1,15 @@
+#ifdef _WIN32
+#ifndef HERBARY_STD_IMPLEMENT_COMMANDLINETOARGVA_H_INCLUDED
+#define HERBARY_STD_IMPLEMENT_COMMANDLINETOARGVA_H_INCLUDED
+
+#undef HERBARY_STD_IMPLEMENT_COMMANDLINETOARGVA_H_INCLUDED_BOOL
+#define HERBARY_STD_IMPLEMENT_COMMANDLINETOARGVA_H_INCLUDED_BOOL 1
+
+#include <Windows.h>
+
+#include "herbary/std/define/__win32_crt.h"
+
+__win32_crt_char_t ** CommandLineToArgvA(__win32_crt_char_t *command_line, int *argc);
+
+#endif // HERBARY_STD_IMPLEMENT_COMMANDLINETOARGVA_H_INCLUDED
+#endif // _WIN32
